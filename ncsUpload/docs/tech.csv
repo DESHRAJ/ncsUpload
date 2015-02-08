@@ -1,0 +1,45 @@
+What is the core of Linux Operating System?,Shell,Kernel,Command,Terminal,b
+What Linus Torvalds Created?,Fedora,Slackware,Debian,Linux,d
+Choose the odd one out.,HP-UX,AIX,OSX,Slackware,d
+Linux is which kind of Operating System?,Multi User,Multi Tasking,None of the above,All of the above,d
+Syntax of any Linux command is:,command [options] [arguments],command options [arguments],command [options] [arguments],command options arguments,a
+Choose the odd one out.,Vi,vim,cd,nano,c
+What command is used to remove files?,dm,rm,delete,erase,b
+What command is used to remove the directory?,rdir ,remove,rd,rmdir,d
+How many extended partitions can exist on one drive?,16,8,4,2,d
+What does OSS stand for?,Open System Software,Original Source Software,Open Source Software,Original System Server,c
+Number of keys on windows keyboards:,100,102,104,106,c
+What is the full form of USB?,universal serial bus,universal series bus,universal software bus,universal system bus,a
+Which provides the fastest access to large video files?,Optical drives,IDE hard drives,SCSI hard drives,EIDE hard drives,c
+"You were installing an application in Windows 95, and the computer crashes, what do you do?","press alt + Ctrl + delete, twice","press alt + Ctrl + delete, and end task","press the reset button on the computer","turn off computer and boot from a floppy disk",d
+"The brain of any computer system is",ALU,Memory,CPU,"Control unit",c
+"What difference does the 5th generation computer have from other generation computers?","Technological advancement","Scientificcode","Object Oriented Programming","All of the above",a
+"Which of the following is the 1's complement of 10?",111,1,11,10,a
+"The binary system uses powers of",2,4,6,8,a
+"A computer program that converts assembly language to machine language is",compiler,interpreter,assembler,comparator,c
+A common boundary between two systems is called,interaction,interface,surface,none of the above,b
+"Which method is used to connect a remote computer?",Device,Dialup,Diagnostic,Logic circuit,b
+Which of the following is not a Programming language.,B,C,Pearls,Php,c
+Which of these is a distro of Linux?,CentOS,Android,PureOS,All of the above,d
+What is the full form of FOSS?,Full Open Software Source,Free Open Software Source,Free Open Source Software,d) None of the above,c
+Which command is used to move a file?,mv,move,move -k ,none of the above,a
+What is TUX?,Mascot of Linux,A command,An open source software,none of the above,a
+What does the pwd command do ?,prints the page       ,prints current working directory,creates a password   ,prints the document,b
+What does the cd .. command do ?,Brings the user to the C: drive,Brings the user to the home directory,Changes the current working directory to previous directory,deletes the current working directory,b
+What command is used with vi editor to delete a single character?,x,y,z,a,a
+What hardware architectures are not supported by Red Hat?,Macintosh,SPARC,Alpha,None of these,a
+What does FSF stands for ?,Free Source File,File Server First,Free Source Foundation, None of the above,c
+Which of the following is not a communication command?,grep,mail,msg,write,a
+What command is used to sort the lines of data in a file in alphabetical order?,sort -r,st,sh,sort,d
+What command is used to add printing jobs to the queue?,lpd,lpr,lp,lpc,b
+Which command lists the hidden directories ?,ls -h,ls -al ,ls,l,b
+What does GNU stands for?,GNU’s Not Unix, GNU Needed Unix,General Unix,None of these,a
+Full form of OSI is :,Open Source Innovation,Open Source Initiative,Open Source Introduction,None of these,b
+What command do you use to create Linux file systems?,fdisk,mkfs,mount,none of the above,b
+What does BASH stand for?,BAsic Shell,Brian-Associative SHell,Bourne-Again Shell,Brian-Again Shell,c
+"What service is used to translate domain names to IP addresses?",NFS,SMB,NIS,DNS,d
+"How can you add Amit, a new user, to your system?","Using useradd","Using adduser","Using linuxconf","All of the above",d
+"In which directory can you store system user default files used for creating user directories?","/usr/tmp","/etc/default","/etc/skel","/etc/users",c
+"Which of the following command can you execute to count the number of lines in a file?",lc,wc -l,cl,count,b
+"Which of the following is not a communication command?",grep,mail,mesg,write,a
+"What protocol(s) is(are) allowed a user to retrieve her/his mail from the mail server to her/his mail reader?",POP3,FTP,MAP,All of the above,a
