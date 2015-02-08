@@ -1,1 +1,1 @@
-web: gunicorn ncsUpload.wsgi --log-file
+web: gunicorn ncsUpload.wsgi --log-file -
