@@ -1,29 +1,59 @@
-<html>
-	<head>
-		<title>
-			CSV to Query
-		</title>
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
-	</head>
-	<body>
-		<form class="form-horizontal" method="POST" action="" enctype="multipart/form-data">
-			{% csrf_token %}
-			<fieldset>
-			<div class="form-group">
-			  <label class="col-md-4 control-label" for="file">Upload the CSV file</label>
-			  <div class="col-md-4">
-			    <input id="file" name="files" class="input-file" type="file">
-			  </div>
-			</div>
-			<div class="form-group">
-			  <label class="col-md-4 control-label" for="submit"></label>
-			  <div class="col-md-4">
-			    <button id="submit" name="submit" class="btn btn-primary">Generate the Query</button>
-			  </div>
-			</div>
-			</fieldset>
-		</form>
-	</body>
-</html>	
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Login</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+  <style>
+    .form-control,.form-control:focus,.btn{
+      border-radius:0;
+      box-shadow:none;
+    }
+    label{
+      font-weight:300;
+    }
+    .loginContainer{
+      background-color: #fff;
+      margin:auto;
+      margin-top:8%;
+      max-width:400px;
+      width:100%;
+      padding:20px 20px 15px;
+    }
+    .loginContainer h1{
+      font-size:2em;
+      margin-top:0;
+    }
+    .btn,.btn:hover,.btn:focus{
+      background:#34495E;
+      border:0;
+      display:block;
+      width:100%;
+      max-width:200px;
+      margin:auto;
+    }
+    body{
+      background:#333;
+    }
+  </style>
+</head>
+<body>
+  <section class="container-fluid">
+    <div class="loginContainer">
+      <h1 class="text-center">Excel to Query Generator</h1>
+      <form role="form" method="post" action="">
+        {% csrf_token %}
+        <div class="form-group">
+          <label class="control-label" for="username">Upload in csv format</label>
+          <input id="file" name="files" class="input-file" type="file" required>
+        </div>
+        <div class="form-group">
+          <input type="submit" class="btn btn-primary" value="Generate Query">
+        </div>
+      </form>
+    </div>  
+  </section>
+</body>
+</html>
