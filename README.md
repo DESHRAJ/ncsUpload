@@ -4,6 +4,7 @@ A django application that put the csv content to the MySql Database automaticall
 This web applicaiton is live at https://ncsupload.herokuapp.com/
 
 Guidelines to use this django Application:
+
 1. Created for the MCQ module used by the Nibble Computer Society.
 2. If you want to use this application for your own purpose, then see the ncsUpload/views.py file to change the content according to yourself.
 3. If you have any queries or you want to contact me, then feel free to ping me at deshrajdry@gmail.com.
